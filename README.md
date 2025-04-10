@@ -8,8 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <title>Modern Login Page | AsmrProg</title>
 </head>
-
-<body>
+<style>
+    table,tr,td{
+        border: 3px groove black;
+        border-collapse: collapse ;
+        border-top-width: blue;
+    }
+</style>
+<feildset>
+    <body>
 
     <div class="container" id="container">
         <div class="form-container sign-up">
@@ -59,8 +66,76 @@
             </div>
         </div>
     </div>
-
-    <script src="script.js"></script>
+    </body>
+    </feildset>
+    <fieldset>
+<body>
+    <table>
+    <h2><font color= "black"><center>CSM TIME TABLE</center></font></h2>
+    <tr>
+    <td>Day</td>    
+    <td>9.15-10.05</td>
+    <td>10.05-10.55</td>
+    <td>10.55-11.05</td>
+    <td rowspan="7" align="center">B<br>R<br>E<br>A<br>K </td>
+    <td>11.55-12.45</td>
+    <td rowspan="7" align="center"> L<br>U<br>N<br>C<br>H </td>
+    <td>1.35-2.05</td>
+    <td>2.05-2.55</td>
+    <td>2.55-3.45</td>
+    </tr>
+    <tr>
+        <td>mon</td>
+        <td>DAA</td>       
+        <td><colspan="3" align="center">WEBLAB</td>
+        <td>AML</td>
+        <td colspan="2" align="center">SOFTSKILLS</td>
+    </tr>
+    <tr>
+        <td>tue</td>
+        <td colspan="2" align="center">AML LAB</td>
+        <td>EVS</td>
+        <td>IPR</td>
+        <td>HCI</td>
+        <td>DAA</td>
+        <td>COUN</td>
+    </tr>
+    <tr>
+        <td>wed</td>
+        <td>AML</td>
+        <td colspan="3" align="center">ECCS LAB</td>
+        <td>DAA</td>
+        <td>HCI</td>
+        <td>WEB</td>
+       </tr>
+       <tr>
+        <td>thus</td>
+        <td>IPR</td>
+        <td>AML</td>
+        <td>WEB</td>
+        <td>HCI</td>
+        <td colspan="3" align="center">DAA LAB</td>    
+       </tr>
+       <tr>
+        <td>fri</td>
+        <td>WEB</td>
+        <td>IPR</td>
+        <td>WEB</td>
+        <td>DAA</td>
+        <td>HCI</td>
+        <td>EVS</td>
+        <td>AML</td>
+       </tr>
+       <tr>
+        <td>sat</td>
+        <td>IPR</td>
+        <td>WEB</td>
+        <td>EVS</td>
+        <td>AML</td>
+        <td>IPR</td>
+        <td>DAA</td>
+        <td>HCI</td>
+    </table>
 </body>
-
+        </feildset>
 </html>
